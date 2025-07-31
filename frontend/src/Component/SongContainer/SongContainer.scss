@@ -1,0 +1,48 @@
+.songcontainer{
+    width: 100%;
+    background:transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    .seperating-line{
+                width: 90%;
+                height: 0.3rem;
+                background-color: rgb(203, 184, 184);
+                opacity: 0.5;
+                margin-bottom: 0.5rem;
+                border-radius: 0.7rem;
+            }
+    .song{
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        color: white;
+        padding: 0 1rem;
+        position: relative;
+
+
+        .songdetail{
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+            h1{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 0.7rem;
+                color: rgb(200, 200, 200);
+            }
+        }
+        
+        
+        .ri-play-fill,.ri-pause-mini-line{
+            right: 8rem;
+            color: white;
+            cursor: pointer;
+            position: absolute;
+        }
+    
+    }
+}

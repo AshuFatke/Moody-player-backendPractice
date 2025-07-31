@@ -1,0 +1,53 @@
+.face-recognition-container {
+  width: 100%;
+  height: 50vh;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem;
+  gap: 20px;
+}
+.face-recognition-container .video-element {
+  width: 520px;
+  height: 20rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 3rem;
+}
+.face-recognition-container .sideContainer {
+  width: 50%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.face-recognition-container .sideContainer p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #dcc3c3;
+  text-align: center;
+  justify-content: center;
+}
+.face-recognition-container .play-btn {
+  width: 6.7rem;
+  height: 2.3rem;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.face-recognition-container .play-btn:active {
+  scale: 0.95;
+}
+
+.SongContainer {
+  height: 70vh;
+  width: 100%;
+  background-color: #333;
+}/*# sourceMappingURL=FaceRecognition.css.map */

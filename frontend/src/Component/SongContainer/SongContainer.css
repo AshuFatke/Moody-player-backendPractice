@@ -1,0 +1,43 @@
+.songcontainer {
+  width: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+.songcontainer .seperating-line {
+  width: 90%;
+  height: 0.3rem;
+  background-color: rgb(203, 184, 184);
+  opacity: 0.5;
+  margin-bottom: 0.5rem;
+  border-radius: 0.7rem;
+}
+.songcontainer .song {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  padding: 0 1rem;
+  position: relative;
+}
+.songcontainer .song .songdetail {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.songcontainer .song .songdetail h1 {
+  font-size: 2rem;
+}
+.songcontainer .song .songdetail p {
+  font-size: 0.7rem;
+  color: rgb(200, 200, 200);
+}
+.songcontainer .song .ri-play-fill, .songcontainer .song .ri-pause-mini-line {
+  right: 8rem;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+}/*# sourceMappingURL=SongContainer.css.map */
